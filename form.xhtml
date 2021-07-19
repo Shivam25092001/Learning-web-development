@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Quick Release-Organise</title>
+    <link rel="stylesheet" href="form.css"/>
+</head>
+<body>
+    <!-- branding bar -->
+    <a href="index.htm">
+        <div class="Branding">
+            <h1>
+                <img src="assets/logo.png" id="brand_image"></img>
+                Quick Release
+            </h1>
+        </div>
+    </a>
+    
+    <!-- main form -->
+    <div class="something">
+    <h1>Organise an Event</h1>
+    <p id="get">#Share the Bikehood</p>
+    <br/>
+    <br/>
+    <hr color="teal" width="500px"></hr>
+    <h4>Name of Organiser :</h4>
+    <input type="text" name="name" id= "myBtn3" onfocus="highlightInput(this)" placeholder="Enter full name"/>
+    <h4>Enter the place :</h4>
+    <input type="text" name="place" onfocus="highlightInput(this)" placeholder="Enter pincode"/>
+    <h4>Type of the event :</h4>
+    <div class="input">
+        <input type="radio" id="type1" name="paymentopt" value="type1"/>
+        <label for="type1">Marathon</label>
+        <br/>
+        <input type="radio" id="type2" name="paymentopt" value="type2"/>
+        <label for="type2">Cycle Building Workshop</label>
+        <br/>
+        <input type="radio" id="type3" name="paymentopt" value="type3"/>
+        <label for="type3">Awareness ride</label>
+        <br/>
+        <input type="radio" id="type4" name="paymentopt" value="type4"/>
+        <label for="type4">Sunday ride</label>
+    </div>
+    <div class="date-time">
+    <div class="date">
+    <h4>Date of event:</h4>
+    <input type="date" name="date"/></div>
+    <div class="time">
+    <h4>Time of event :</h4>
+    <input type="time" id= "myBtn1" /></div></div>
+    <h4>Enter Details of Event :</h4>
+    <input type="paragraph" name="details"/>
+    <br/>
+    <br/>
+    <br/>
+    <input id = "onsubmit" type="submit" name="Join" class="button"/>
+    <p id="demo" style= "color: black"></p>   
+    <br/>
+    <br/>
+    <br/>
+    <p id="cky"></p>
+</div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
+    <!-- JS link -->
+    <script src="form.js"></script>
+</body>
+    
+</html>

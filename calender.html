@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender_Marker</title>
+    <style>
+        body{
+            background-color: rgb(37, 118, 124);
+            color: antiquewhite;
+        }
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 50;
+            color: snow;
+            padding-left: 30px;
+            margin: 0;
+        }
+        .button{
+            justify-content: center;
+            padding: 10px;
+            margin-left: 0px;
+            height: 35px;
+            width: 100px;
+            display: flex;
+            align-self: center;
+            border-radius: 5px;
+            color: white;
+            background-color: rgb(56, 183, 192);
+            border-color: teal;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>mark your own #Event_calender</h1><br><br><br><br>
+    <p>Click the button to enter your choice of addition or removal:</p>
+    
+    <button onclick="insert()" class="button">Addition</button>
+    <br>
+    <button onclick="remove()" class="button">Removal</button>
+    <br>
+    <br>
+    <br>
+    
+
+    <p>days->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; monday | tuesday | wednesday | thursday | &nbsp;&nbsp;friday | &nbsp;&nbsp;saturday | &nbsp;&nbsp;sunday</p>
+
+    <table>
+        <tr>
+            <p id="demo"></p>
+        </tr>
+        
+    </table>
+    
+
+    <script src="calender.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>&nbsp Quick Release</title>
+
+    <!-- icon link -->
+    <link rel="icon" href="assets/logo.png" type="image/icon type">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    
+    <!-- top branding bar -->
+    <div class="Branding">
+        <h1>
+            <img src="assets/logo.png" height = 40px>
+            &nbsp Quick Release
+        </h1>
+    </div>
+
+    <!-- top menu nav bar LIST-->
+    <ul class="nav">
+        <li><a href="#home">&nbsp &nbsp &nbsp Home</a></li>
+        <p>|</p>
+        <li><a href="#community">Community</a></li>
+        <p>|</p>
+        <li><a href="#events">Events</a></li>
+        <p>|</p>
+        <li><a href="calender.html">Calender</a></li>
+        <p>|</p>
+        <!-- timestamp -->
+        <li><a href="#clock"><div id="MyClockDisplay" class="clock" onload="showTime()"></div></a></li>
+        
+    
+
+        <!-- right part of nav bar -->
+        <div class="rightnav">
+            <a href="login.php">Login</a>
+            <p>|</p>
+            <a href="register.php">Register&nbsp &nbsp &nbsp </a>
+        </div>
+    </ul>
+
+    <!-- central element text of main page /part1-->
+    <a id="home">
+    <div class="part1">
+        <h1>#let's share the 
+            <span style="color:rgb(56, 183, 192)">Bike</span>hood
+            <!-- Button -->
+            <div>
+                <a href="form.xhtml" class= "formbutton" target="_blank">
+                <button class="button1">
+                    <b>Host an Event!</b>
+                </button>
+                </a>
+            </div>
+        </h1>
+    </div>
+    </a>
+
+    <!-- central element for part2 -->
+    <a id="community">
+    <div class="part2">
+        <h1>Go to the community <span style="color:rgb(56, 183, 192)">Blogging </span>page</h1>
+    </div>
+    </a>
+
+    <!-- central element for part3 -->
+    <a id="events">
+    <div class="part3">
+        <h1 id="a"><b><span style="color:rgb(56, 183, 192)">Past</span> Events &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></h1>
+        <h1 id="b"><b><span style="color:rgb(56, 183, 192)">Ongoing</span> Events &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></h1>
+        <h1 id="c"><b><span style="color:rgb(56, 183, 192)">Future</span> Events</b></h1>
+        
+        <!-- adding some video links -->
+        <iframe src="https://www.youtube.com/embed/kozY-O4cHmo?start=60" width="30%" height="280px"allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/KEDQfDQQpNw" width="30%" height="280px"allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/xCxpOfGLlg8" width="30%" height="280px"allowfullscreen></iframe>
+    </div>
+    </a>
+
+    <hr color="teal" width="1000px">
+
+    <!-- central element for part3 -->
+    <a id="login">
+    <div class="part4">
+        <h1>
+            Contact Us!
+        </h1>
+        <p>
+            <span style="color: grey; font-size: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: 100;">
+            Get special offers, exclusive product news, and event info straight to your inbox.
+            </span>
+        </p>
+
+        <!-- form for login/signup -->
+        <form action="#" class="form">
+            <!-- Email id -->
+            <input type="text" name="Email" class="login" placeholder=" Email Id"><span style="font-weight: 100;font-size: 20px;"></span>
+            <br>
+            <!-- Querry -->
+            <input type="text" name="Password" class="login" placeholder=" Your querries here..."><span style="font-weight: 100;font-size: 20px;"></span>
+            <br>
+            <input type="submit" name="Join" class="submitbutton">
+        </form>
+
+        <!-- description -->
+        <p>
+            <span style="font-weight: 100;font-size: 10px;color: grey;" id="info">
+                <p class="disc">By signing up, you consent to sending the above information to Quick Release, which will be stored in India.
+                This information may be used for providing marketing materials to you from multiple stores, subsidiaries, and your local dealers.
+                If you wish to opt out, you may do so at any time by clicking on the “unsubscribe” link that appears at the bottom of each of our emails.
+                However you also get the option to delete your profile anytime in the Settings menu.</p>
+            </span>
+        </p>
+
+        <!-- adding some flags of active reions in form of TABLE -->
+        <div class="activeregions">
+            <table>
+                <tr>
+                    <td><img src="assets/india.png"></td>
+                    <td><img src="assets/egypt.png"></td>
+                    <td><img src="assets/mexico.png"></td>
+                </tr>
+                <tr>
+                    <td><img src="assets/philiooines.png"></td>
+                    <td><img src="assets/southlorea.png"></td>
+                    <td><img src="assets/australia.png"></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- social media links -->
+        <div class="sociallinks">
+            <a href="https://www.linkedin.com/feed/" target="_blank"><img src="assets/in.png"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="assets/fb.png"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="assets/ig.png"></a>
+        </div>
+    </div>
+
+    
+
+    <!-- copyright footer statement -->
+    <div class="footer">
+        &#169 Quick Release Corporation 2021
+    </div>
+    </a>
+
+    <!-- JS link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

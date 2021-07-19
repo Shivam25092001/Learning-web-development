@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 40, 46);
+}
+body a{
+    text-decoration: none;
+}
+
+.Branding{
+    background-color: rgb(37, 118, 124);
+    overflow: hidden;
+    padding: 10px;
+}
+.Branding h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 50;
+    color: snow;
+    padding-left: 30px;
+    margin: 0;
+}
+#brand_image{
+    height: 50px;
+}
+
+.form-bg{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15vw;
+    margin-top: 5vh;
+    margin-right: 15vw;
+    border: rgb(231, 230, 230) 2px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 10px #000000;
+    padding: 10vh 3.5vw 10vh 3.5vw;
+    background-color: rgb(231, 230, 230);
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: rgb(56, 183, 192);
+    text-align: center; 
+    margin-bottom: 0vh;
+}
+
+input[type='text']{
+    padding: 1.8vh 2vw 1.8vh 1vw;
+    width: 40vw;
+    border: rgb(56, 183, 192) solid 2px;
+    border-radius: 5px;
+}
+
+.button{
+    justify-content: center;
+    padding: 10px;
+    margin-left: 0px;
+    height: 35px;
+    width: 100px;
+    display: flex;
+    align-self: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(56, 183, 192);
+    border-color: teal;
+}
+
+.error{
+    color: red;
+}
+
